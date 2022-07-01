@@ -9,8 +9,19 @@ function Header()
 {
     return(
         <header>
-            <nav>
+            <nav className="nav-items">
                 <img src="./react-logo.png" width="40px"/>
+                <ul className="hor-list">
+                    <li>
+                        Pricing
+                    </li>
+                    <li>
+                        About
+                    </li>
+                    <li>
+                        Contact
+                    </li>
+                </ul>
             </nav>
         </header>
     )
@@ -30,7 +41,7 @@ function Footer()
 function MainContent()
 {
     return(
-        <>
+        <div>
             <h1>Reasons i love React </h1>
             <ol>
                 <li>
@@ -43,7 +54,7 @@ function MainContent()
                     it is declarative
                 </li>
             </ol>
-        </>
+        </div>
     )
 }
 
