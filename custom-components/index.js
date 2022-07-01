@@ -1,6 +1,11 @@
 // import React from "react"
 // import ReactDOM from "react-dom"
 
+// what is a react component?
+// its a function that returns react elemnents. a react Element, even though
+// it looks like html elements, under the hood, a react element is a js Object.
+
+
 function Page()
 {
     return(
@@ -24,7 +29,11 @@ function Page()
                 </li>
             </ol>
 
-            <footer> <small> © 2022 Jude development. All rights reserved.</small>  </footer>
+            <footer> 
+                <small> 
+                    © 2022 Jude development. All rights reserved.
+                </small>  
+            </footer>
         </div>
         
     )
