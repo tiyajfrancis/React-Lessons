@@ -1,0 +1,1 @@
+a basic static web page using React
