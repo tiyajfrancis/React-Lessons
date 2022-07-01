@@ -1,11 +1,17 @@
 // import React from "react"
 // import ReactDOM from "react-dom"
 
-function CustomComp()
+function Page()
 {
     return(
         <div>
-            <h1>Reasons i love React  <img src="./react-logo.png" width="40px"/> </h1>
+            <header>
+                <nav>
+                    <img src="./react-logo.png" width="40px"/>
+                </nav>
+            </header>
+
+            <h1>Reasons i love React </h1>
             <ol>
                 <li>
                     It is a highly hireable skill
@@ -17,10 +23,12 @@ function CustomComp()
                     it is declarative
                 </li>
             </ol>
+
+            <footer> <small> © 2022 Jude development. All rights reserved.</small>  </footer>
         </div>
         
     )
 }
 
 
-ReactDOM.render(<CustomComp />, document.getElementById("root"))
+ReactDOM.render(<Page />, document.getElementById("root"))
